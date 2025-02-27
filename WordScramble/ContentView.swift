@@ -86,7 +86,7 @@ struct ContentView: View {
         withAnimation {
             usedWords.insert(answer, at: 0)
         }
-        score += 1
+        score += answer.count
         newWord = ""
     }
     
